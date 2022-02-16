@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   {{>header_links}} 
+
+</head>
+
+<body>
+    {{!-- include navbar --}}
+    {{>navbar}}
+    {{!-- include navbar --}}
+    
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- left side div -->
+                    <div class=" col-md-10 col-6 main_header_left align-items-center">
+                        <figure class="errimg">
+                            <img src="images/error.png" alt="ashish" class="img-fluid" title="A.K image">
+                        </figure>
+                   
+                        <p><i class="far fa-snowflake"></i>  Welcome to A.K website <i class="far fa-snowflake"></i></p>
+                        <h1>{{errorMsg}} </h1>
+                        <a href="/" target="A.K.M"><button>Back To Homepage</button></a>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer code -->
+    {{>footer}}
+    <!-- footer code -->
+</body>
+</html>
