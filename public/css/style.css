@@ -316,6 +316,10 @@ footer p{
     .temp_Info{
         width: auto;
     }
+     .img-fluid {
+        max-width: 24rem;
+        height: auto;
+    }
    
      
  }
